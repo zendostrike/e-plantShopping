@@ -46,6 +46,7 @@ body {
     width: 100vw;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
 }
 .product-list {
     display: flex;
@@ -100,6 +101,16 @@ body {
 .product-button {
     background-color: #e74c3c;
     color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+.product-button__disabled {
+    background-color: #8f8f8f;
+    color: #ffffff;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
